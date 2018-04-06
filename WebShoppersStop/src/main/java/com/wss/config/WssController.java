@@ -105,4 +105,10 @@ public class WssController {
 	public String showBus(Model model) {
 		return "bus";
 	}
+	
+	@RequestMapping(value="/new.htm", method=RequestMethod.GET)
+	public String showNew(Model model) {
+		return "new";
+	}
+	
 }
