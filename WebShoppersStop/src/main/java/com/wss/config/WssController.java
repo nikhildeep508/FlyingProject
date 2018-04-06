@@ -28,5 +28,34 @@ public class WssController {
 	public String showBlog(Model model) {
 		return "blog";
 	}
+	
+	@RequestMapping(value="/booking.html", method=RequestMethod.GET)
+	public String showBooking(Model model) {
+		return "booking";
+	}
+	
+	@RequestMapping(value="/contact.html", method=RequestMethod.GET)
+	public String showContact(Model model) {
+		return "contact";
+	}
+	
+	@RequestMapping(value="/deals.html", method=RequestMethod.GET)
+	public String showDeals(Model model) {
+		return "deals";
+	}
 
+	@RequestMapping(value="/faqs.html", method=RequestMethod.GET)
+	public String showFaqs(Model model) {
+		return "faqs";
+	}
+	
+	@RequestMapping(value="/flights-hotels.html", method=RequestMethod.GET)
+	public String showFlightsHotels(Model model) {
+		return "flights-hotels";
+	}
+	
+	@RequestMapping(value="/holidays.html", method=RequestMethod.GET)
+	public String showHolidays(Model model) {
+		return "holidays";
+	}
 }
