@@ -95,4 +95,14 @@ public class WssController {
 	public String showHolidays(Model model) {
 		return "holidays";
 	}
+	
+	@RequestMapping(value="/index.html", method=RequestMethod.GET)
+	public String showFlights(Model model) {
+		return "index";
+	}
+	
+	@RequestMapping(value="/bus.html", method=RequestMethod.GET)
+	public String showBus(Model model) {
+		return "bus";
+	}
 }
